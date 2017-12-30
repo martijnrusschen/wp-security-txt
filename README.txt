@@ -20,7 +20,7 @@ The purpose of this project is to create a set-it-and-forget-it plugin that can 
 
 [`security.txt`](https://github.com/securitytxt) is a [draft](https://tools.ietf.org/html/draft-foudil-securitytxt-00) "standard" which allows websites to define security policies. This "standard" sets clear guidelines for security researchers on how to report security issues, and allows bug bounty programs to define a scope. Security.txt is the equivalent of `robots.txt`, but for security issues.
 
-There is a help page built into the plugin if you need help configuring it. For developers, there is [documentation for `wordpress-security-txt` online](https://austinheap.github.io/wordpress-security-txt/), the source of which is in the [`docs/`](https://github.com/austinheap/wordpress-security-txt/tree/master/docs) directory. The most logical place to start are the [docs for the `WordPress_Security_Txt` class](https://austinheap.github.io/wordpress-security-txt/packages/WordPress.Security.Txt.html).
+There is a help page built into the plugin if you need help configuring it. For developers, there is [documentation for `wordpress-security-txt` online](https://austinheap.github.io/wordpress-security-txt/), the source of which is in the [`docs/`](https://github.com/austinheap/wordpress-security-txt/tree/master/docs) directory. The most logical place to start is the [docs for the `WordPress_Security_Txt` class](https://austinheap.github.io/wordpress-security-txt/packages/WordPress.Security.Txt.html).
 
 == Installation ==
 
@@ -50,7 +50,7 @@ While the specification explicitly allows for more than one `Contact` directive,
 
 == Screenshots ==
 
-1. Easily control the declaratives of your `security.txt` document.
+1. Easily control the declarations of your `security.txt` document.
 2. Generates valid `security.txt` documents for the latest spec.
 
 == Changelog ==
@@ -85,13 +85,13 @@ The `security.txt` for WordPress plugin includes translations for the following 
 * Russian ([PO file](https://github.com/austinheap/wordpress-security-txt-translations/blob/master/wordpress-security-txt-ru_RU.po))
 * Spanish ([PO file](https://github.com/austinheap/wordpress-security-txt-translations/blob/master/wordpress-security-txt-es_ES.po))
 
-If you would like to contribute a new languge or you spotted in error in one of the translation files, please feel free to contribute directly to the [public `wordpress-security-txt` POEditor project](https://poeditor.com/join/project/utTvBn327C). Once accepted additions/modifications are automagically built by POEditor to PO/MO files and published to the [wordpress-security-txt-translation](https://github.com/austinheap/wordpress-security-txt-translations) repository.
+If you would like to contribute a new language or you spotted an error in one of the translation files, please feel free to contribute directly to the [public `wordpress-security-txt` POEditor project](https://poeditor.com/join/project/utTvBn327C). Once accepted additions/modifications are automagically built by POEditor to PO/MO files and published to the [wordpress-security-txt-translation](https://github.com/austinheap/wordpress-security-txt-translations) repository.
 
 The translations repository is included in builds submitted to the WordPress plugin directory. Users with the [GitHub Updater Plugin](https://github.com/afragen/github-updater) don't have to wait for builds to the WordPress plugin directory -- they can get updated translations as soon as they're published to the repository by POEditor.
 
 == Anonymous Statistics (Opt-in) ==
 
-This plugin has an option --- that is **disabled** by default and _can only be enabled by explicilty opt-ing in_ on the `security.txt` Settings page --- to collect anonymous statistics to help better understand how this plugin is used and how people are implementing their `security.txt` documents. The goal of collecting this data is to aid in research and design of the [specification](https://tools.ietf.org/html/draft-foudil-securitytxt-00), the [PHP library](https://github.com/austinheap/php-security-txt), the [plugin](https://github.com/austinheap/wordpress-security-txt) itself, and to help us create a better experience for all users.
+This plugin has an option --- that is **disabled** by default and _can only be enabled by explicitly opt-ing in_ on the `security.txt` Settings page --- to collect anonymous statistics to help better understand how this plugin is used and how people are implementing their `security.txt` documents. The goal of collecting this data is to aid in research and design of the [specification](https://tools.ietf.org/html/draft-foudil-securitytxt-00), the [PHP library](https://github.com/austinheap/php-security-txt), the [plugin](https://github.com/austinheap/wordpress-security-txt) itself, and to help us create a better experience for all users.
 
 For example, one function of anonymous statistics is to send your <code>security.txt</code> document to our servers. This allows us to track what percent of users are implementing the specification according to the draft RFC, and how it might differ from the explicit definitions submitted to the [Internet Engineering Task Force (IETF)](https://www.ietf.org/).
 
